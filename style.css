@@ -223,7 +223,8 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
   z-index: 2;
 }
 
-/* DESKTOP */
+
+/* DESKTOP — Film Strip Position & Transparency */
 .contact-film-strip {
   position: absolute;
   z-index: 1;
@@ -232,13 +233,14 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
   max-width: none;
   height: auto;
 
-  top: 11%;
+  top: 22%;
   right: -3%;
 
-  opacity: 0.9;
+  opacity: 0.6;
   pointer-events: none;
   user-select: none;
 }
+
 
 /* TABLETS */
 @media (max-width: 800px) {
