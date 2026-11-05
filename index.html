@@ -94,47 +94,86 @@
       </div>
     </section>
 
-    <!-- ============================================================
-         SECTION 3: MEDIA — Paste YouTube VIDEO IDs into the iframe.
-         YouTube URL: youtube.com/watch?v=ABC123 -> ID is ABC123
-         See README.md for copy-and-paste instructions.
-         ============================================================ -->
- 
-    <section id="media" class="section media-section">    
-<!-- VIDEO 1: GOBBLEHEAD 3: THE THIRD COURSE -->
-<article class="video-card">
-  <div class="video-frame">
-    <iframe
-      src="https://youtu.be/WYNCnQOqsYk?si=WvQq3lYomhYiltjY"
-      title="Gobblehead 3: The Third Course"
-      loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <div class="video-details">
-    <h3>GOBBLEHEAD 3: THE THIRD COURSE</h3>
-  </div>
-</article>
+    
+<!-- ============================================================
+     SECTION 3: MEDIA
+     Featured films with embedded YouTube players.
+     To add more films, duplicate a video-card article.
+     ============================================================ -->
 
-<!-- VIDEO 2: WHITE LIES -->
-<article class="video-card">
-  <div class="video-frame">
-    <iframe
-      src="https://youtu.be/EyAeqWenhm4?si=-3sHi794Nr5oGNUf"
-      title="White Lies"
-      loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
+<section id="media" class="section media-section">
+  <div class="site-width">
+
+    <!-- MEDIA SECTION HEADING -->
+    <div class="section-heading">
+      <div>
+        <div class="mini-label">// 02 - PRESS PLAY</div>
+        <h2>ME<span>DIA</span><span class="period">.</span></h2>
+      </div>
+
+      <div class="section-note">
+        ROLL<br>
+        CAMERA
+        <span>
+          <img class="symbol-icon arrow-icon"
+               src="arrow-down-left.svg" alt="">
+        </span>
+      </div>
+    </div>
+
+    <p class="section-intro">
+      Scenes, reels, and projects. Watch them right here.
+    </p>
+
+    <!-- RESPONSIVE VIDEO GRID -->
+    <div class="media-grid">
+
+      <!-- VIDEO 1: GOBBLEHEAD 3: THE THIRD COURSE -->
+      <article class="video-card">
+
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/WYNCnQOqsYk"
+            title="Gobblehead 3: The Third Course"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-details">
+          <h3>GOBBLEHEAD 3: THE THIRD COURSE</h3>
+        </div>
+
+      </article>
+
+      <!-- VIDEO 2: WHITE LIES -->
+      <article class="video-card">
+
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/EyAeqWenhm4"
+            title="White Lies"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-details">
+          <h3>WHITE LIES</h3>
+        </div>
+
+      </article>
+
+    </div>
+    <!-- END RESPONSIVE VIDEO GRID -->
+
   </div>
-  <div class="video-details">
-    <h3>WHITE LIES</h3>
-  </div>
-</article>
-    </section>
+</section>
+<!-- END MEDIA SECTION -->
 
     <!-- ============================================================
          SECTION 4: CONTACT — GitHub Pages cannot receive form data.
