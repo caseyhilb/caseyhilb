@@ -204,3 +204,58 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
   .hero-section .site-width > .eyebrow { margin-bottom: 0; }
   .hero-section .site-width > .hero-grid { margin-top: 90px; }
 }
+
+/* =====================================================
+   CONTACT SECTION — DECORATIVE SILVER FILM STRIP
+   Desktop + Mobile Responsive
+   ===================================================== */
+
+/* Allow decorative image behind the contact content */
+.contact-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+/* Keep text and email button above the film strip */
+.contact-inner {
+  position: relative;
+  z-index: 2;
+}
+
+/* DESKTOP */
+.contact-film-strip {
+  position: absolute;
+  z-index: 1;
+
+  width: clamp(500px, 70vw, 1150px);
+  max-width: none;
+  height: auto;
+
+  top: 11%;
+  right: -3%;
+
+  opacity: 0.9;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* TABLETS */
+@media (max-width: 800px) {
+  .contact-film-strip {
+    width: 95%;
+    top: 20%;
+    right: -25%;
+    opacity: 0.45;
+  }
+}
+
+/* MOBILE PHONES */
+@media (max-width: 480px) {
+  .contact-film-strip {
+    width: 115%;
+    top: 23%;
+    right: -48%;
+    opacity: 0.25;
+  }
+}
