@@ -45,7 +45,20 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .headshot { display: block; width: 100%; aspect-ratio: 1/1.08; object-fit: cover; object-position: center 30%; filter: contrast(1.02) saturate(.96); }
 .tape-horizontal { background: transparent url('silver-tape.png') center / 100% 100% no-repeat; border: none; box-shadow: 0 8px 18px rgba(0,0,0,.45); }
 .portrait-tape { position: absolute; z-index: 2; width: 48%; height: 72px; top: -34px; left: 26%; transform: rotate(4deg); clip-path: none; opacity: .98; }
-.portrait-caption { position: absolute; z-index: 2; bottom: -17px; right: -17px; background: var(--green); color: #000; font-weight: 800; font-size: 9px; letter-spacing: .9px; padding: 12px 15px; transform: rotate(3deg); }
+.portrait-caption {
+  position: absolute;
+  z-index: 2;
+  bottom: -17px;
+  left: -17px;
+  right: auto;
+  background: var(--green);
+  color: #000;
+  font-weight: 800;
+  font-size: 9px;
+  letter-spacing: .9px;
+  padding: 12px 15px;
+  transform: rotate(-3deg);
+}
 .portrait-caption span { margin: 0 6px; }
 .hero-copy { padding: 15px 0 24px; }
 h1,h2,h3,h4,p { margin-top: 0; }
