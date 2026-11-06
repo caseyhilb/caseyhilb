@@ -242,6 +242,7 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
 }
 
 
+
 /* TABLETS */
 @media (max-width: 800px) {
   .contact-film-strip {
