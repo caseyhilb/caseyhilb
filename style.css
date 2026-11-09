@@ -334,15 +334,3 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
   }
 }
 
-/* ==========================================
-   DESKTOP ONLY — FULL-WIDTH TICKER
-   ========================================== */
-
-@media (min-width: 801px) {
-  .ticker {
-    width: 100vw;
-    max-width: none;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-  }
-}
