@@ -275,3 +275,52 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
     opacity: 0.25;
   }
 }
+
+
+/* ==========================================
+   SOCIALS SECTION — INSTAGRAM
+   ========================================== */
+
+.socials-section {
+  position: relative;
+  background: #000000;
+  overflow: hidden;
+}
+
+/* Section description */
+.socials-section .section-intro {
+  color: #DEDEDE;
+  margin-bottom: 35px;
+}
+
+/* Instagram widget container */
+.instagram-widget {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 250px;
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  .socials-section .section-intro {
+    margin-bottom: 25px;
+  }
+
+  .instagram-widget {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .socials-section .section-intro {
+    margin-bottom: 20px;
+  }
+
+  .instagram-widget {
+    width: 100%;
+    min-height: 200px;
+  }
+}
