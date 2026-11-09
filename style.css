@@ -331,9 +331,15 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
     min-height: 200px;
   }
 }
-/* SOLID BLACK MIDDLE SECTIONS */
-.resume-section,
-.media-section,
-.socials-section {
+
+/* ==========================================
+   SOLID BLACK — MIDDLE SECTIONS
+   ========================================== */
+
+section.resume-section,
+section.media-section,
+section.socials-section {
   background: #000000;
+  background-image: none;
 }
+
