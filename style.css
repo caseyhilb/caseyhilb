@@ -69,7 +69,7 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
 .heading-rule { width: 240px; max-width: 62%; height: 14px; background: transparent url('chain-divider.png') center / 100% 100% no-repeat; margin-bottom: 27px; transform: rotate(-2deg); }
 .hero-role { color: var(--white); font-weight: 800; font-size: 12px; letter-spacing: 2px; margin-bottom: 18px; }
 .hero-role span { color: var(--green); margin: 0 7px; }
-.bio { color: #c4c4c4; max-width: 500px; line-height: 1.8; font-size: 15px; }
+.bio { color: #F3F3F0; max-width: 500px; line-height: 1.8; font-size: 15px; }
 .bio strong { color: var(--green-light); font-weight: 600; }
 .social-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 27px; }
 .social-button { display: flex; align-items: center; gap: 10px; color: var(--white); border: 1px solid #696969; font-size: 11px; letter-spacing: 1px; font-weight: 800; padding: 12px 15px; transition: color .2s,border-color .2s,background .2s; }
