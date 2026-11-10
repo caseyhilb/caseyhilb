@@ -120,7 +120,6 @@ h1>span:first-of-type, .section-heading h2 span:first-of-type, .contact-inner h2
     #151c08 0%,
     transparent 42%
   ), #000000;
-  border-top: 1px solid #353535;
 }
 .contact-inner { position: relative; padding-top: 30px; padding-bottom: 35px; }
 .contact-inner h2 { font-size: clamp(48px, 8.2vw, 112px); line-height: 1.02; color: var(--white); margin: 23px 0 24px; letter-spacing: -4px; max-width: 1050px; }
